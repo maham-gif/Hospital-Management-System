@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "EHealth",
+    "slug": "EHealth",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo1.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo1.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.saadmustafa1.EHealth"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/logo1.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "36820624-14c0-41df-b880-214318db6017"
+      }
+    },
+    "splash": {
+      "image": "./assets/images/logo1.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff",
+      "duration": 3000
+    },
+    "owner": "saadmustafa1"
+  }
+}
